@@ -19,7 +19,7 @@ file = open("passwd", "w")
 file.write(toWrite)
 file.close()
 
-currDir = "../CSE331_HW02/"
+currDir = "./"
 
 process = "../john-1.9.0-jumbo-1/run/john"
 arg11 = currDir + "passwd"
