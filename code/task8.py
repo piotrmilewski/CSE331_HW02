@@ -15,7 +15,7 @@ cookie = cookie[4:]
 
 toWrite = "user:" + cookie
 
-file = open("../passwd", "w")
+file = open("passwd", "w")
 file.write(toWrite)
 file.close()
 
